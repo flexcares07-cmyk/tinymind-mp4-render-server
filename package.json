@@ -1,0 +1,17 @@
+{
+  "name": "tinymindkids-render-visual-ai-v3",
+  "version": "3.0.0",
+  "description": "TinyMindKids backend with OpenAI stories/images, ElevenLabs voice and FFmpeg MP4.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  }
+}
